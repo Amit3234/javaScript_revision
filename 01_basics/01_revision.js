@@ -4,20 +4,20 @@
 // example 1 
 
 // Without Strict Mode:
-// function exampleWithoutStrict() {
-//     x = 10;  // Undeclared variable (global scope) is created.
-//     console.log(x);  // Outputs 10.
+function exampleWithoutStrict() {
+    x = 10;  // Undeclared variable (global scope) is created.
+    console.log(x);  // Outputs 10.
 
-//     // This doesn't throw an error and creates a global variable y.
-//     y = "Hello, World!";
-//     console.log(y);  // Outputs "Hello, World."
-// }
+    // This doesn't throw an error and creates a global variable y.
+    y = "Hello, World!";
+    console.log(y);  // Outputs "Hello, World."
+}
 
-// exampleWithoutStrict();
+exampleWithoutStrict();
 
 // In non-strict mode, the variables x and y are global.
-// console.log(x);  // Outputs 10.
-// console.log(y);  // Outputs "Hello, World."
+console.log(x);  // Outputs 10.
+console.log(y);  // Outputs "Hello, World."
 
 // exmaple 2 
 
